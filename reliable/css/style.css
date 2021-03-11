@@ -1,0 +1,150 @@
+/*Universal*/
+::selection {
+    background: #132442; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+    background: #132442; /* Gecko Browsers */
+}
+/**Header Logo**/
+.qodef-header-logo-link {
+    padding: 10px;
+    margin: 10px;
+}
+.qodef-mobile-header-logo-link {
+    padding: 5px;
+}
+#qodef-page-mobile-header {
+    background-color: rgba(19,36,66,0.6);
+}
+/**Desktop Menu**/
+#qodef-side-area {
+    overflow: auto;
+}
+.estimate-form input[type=email], .estimate-form input[type=number], .estimate-form input[type=tel], .estimate-form input[type=text], .estimate-form input[type=url], .estimate-form textarea {
+    border: 1px solid #dcdcdc !important;
+    margin: 0 0 10px;
+}
+.estimate-form hr {
+    max-width: 100% !important;
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+}
+
+@media only screen and (min-width: 641px) {
+    .estimate-form ul.gform_fields li.gfield {
+        padding-right: 0px !important;
+    }
+}
+/**Mobile Menu**/
+#qodef-mobile-header-navigation .qodef-m-inner>ul>li>a {
+    color: #ffffff;
+}
+#qodef-side-area-inner{
+    margin-top: 30px;
+}
+@media only screen and (min-width: 1023px) {
+    #qodef-main-navigation-menu .menu-item-6771 {
+    display: none;
+}
+}
+
+/**Homepage **/
+.home-slider .swiper-button-next, .home-slider .swiper-button-prev {
+    background-color: #000000;
+}
+.qodef-testimonials-list .qodef-e-author-job {
+    color: #1e73be !important;
+}
+.blue-button {
+    text-align: center;
+}
+#qodef-page-footer .widget.widget_nav_menu div>ul>li:before {
+    display: none !important;
+}
+
+@media only screen and (min-width: 681px) {
+    .qodef-testimonials-list .swiper-button-next,
+    .qodef-testimonials-list .swiper-button-prev {
+        bottom: 311px;
+    }
+}
+@media only screen and (min-width: 570px) {
+    .qodef-testimonials-list .swiper-button-next,
+    .qodef-testimonials-list .swiper-button-prev {
+        bottom: 130px;
+    }
+}
+@media only screen and (max-width: 680px) {
+    .qodef-testimonials-list .qodef-e-content {
+        padding-bottom: 0px;
+        margin: 0px 0 100px 0;
+    }
+}
+
+/**Services**/
+.elementor-text-editor ul {
+    list-style-position: outside;
+}
+
+/**Front Entry Doors, Garage Doors, Interior Doors**/
+ #gallery-1 img {
+    border: none !important;
+}
+@media only screen and (max-width: 768px) {
+     #gallery-1 .gallery-item {
+        width: 50% !important;
+    }
+    .elementor-5953 .elementor-element.elementor-element-9b70021 > .elementor-widget-container {
+        padding: 0px 0px 0px 10px !important;
+    }
+    .elementor-5953 .elementor-element.elementor-element-2dfd785 > .elementor-widget-container {
+        padding: 15px 0px 0px 10px !important;
+    }
+}
+/**About Us Page**/
+#qodef-page-footer .widget.widget_nav_menu div>ul>li:before {
+    display: none !important;
+}
+.qodef-portfolio-list.qodef-item-layout--info-on-hover .qodef-e-content .qodef-e-content-inner .qodef-e-info-category a {
+    color: #1e73be;
+}
+.qodef-portfolio-list.qodef-item-layout--info-on-hover .qodef-e-content .qodef-e-content-inner .qodef-e-info-category a:hover {
+    background: #1e73be;
+    color: #ffffff;
+}
+.qodef-h4 a:hover, h4 a:hover {
+    color: #132442;
+}
+.masonry-gallery .qodef-e-content {
+    display: none;
+}
+.masonry-gallery .qodef-portfolio-list.qodef-item-layout--info-on-hover .qodef-e-inner:after {
+    display: none;
+}
+
+/**Gallery**/
+.qodef-m-filter .qodef-m-filter-item.qodef--active, .qodef-m-filter .qodef-m-filter-item:hover {
+    color: #1e73be;
+}
+
+/**Contact Us**/
+.gform_wrapper label.gfield_label {
+    font-weight: 300 !important;
+    color: #132442 !important;
+}
+.gform_wrapper .gfield_required {
+    color: #132442 !important;
+}
+
+/**Page title**/
+.qodef-page-title .qodef-m-title {
+    text-shadow: 2px 2px 2px #000000;
+}
+/**Footer**/
+.textwidget .p1{
+    font-size: 13px;
+}
+#qodef-page-footer .widget.widget_nav_menu div>ul>li {
+    margin-bottom: 7px!important;
+}
+
